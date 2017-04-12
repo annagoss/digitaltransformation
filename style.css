@@ -1,0 +1,15 @@
+div {
+	background-image: url(mb1.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+    width: 315.25px;
+    height: 227.875px;
+    margin: 200px auto;
+}
+
+div:hover {
+	transform: scale(10, 10) rotate(360deg);
+	transition: 2s;
+	transition-timing-function: linear;
+}
